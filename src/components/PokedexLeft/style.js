@@ -6,6 +6,7 @@ const PokedexLeftStyled = styled.div`
     max-width: 400px;
     width: 100%;
     padding-bottom: 20px;
+    border: 1px solid black;
     .leds-group {
         display: flex;
     }

@@ -1,13 +1,11 @@
 import DisplayMonochromeStyled from "./style"
-import { useSelector } from 'react-redux'
 
 function DisplayMonochrome() {
-  const name = useSelector(store => store.name)
   return (
     <DisplayMonochromeStyled>
-      <label>Pokemon: {name}</label>
+      <label>Pokemon: unknown</label>
       <br></br>
-      <label>Weight: 23kg</label>
+      <label>Abilities: N/A</label>
     </DisplayMonochromeStyled>
   )
 }

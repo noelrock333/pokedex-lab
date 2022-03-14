@@ -14,6 +14,8 @@ const PokedexRightStyled = styled.div`
     margin-top: -4px;
     background-color: #CE1C24;
     height: 500px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
   }
   .display-wrapper {
     display: flex;
