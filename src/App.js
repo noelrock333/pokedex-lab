@@ -1,12 +1,16 @@
 import PokedexLeft from './components/PokedexLeft'
 import PokedexRight from './components/PokedexRight';
+import { Provider } from 'react-redux'
+import store from './store'
 
 function App() {
   return (
-    <div className="App">
-      <PokedexLeft />
-      <PokedexRight />
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <PokedexLeft />
+        <PokedexRight />
+      </div>
+    </Provider>
   );
 }
 
